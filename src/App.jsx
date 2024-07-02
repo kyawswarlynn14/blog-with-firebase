@@ -12,9 +12,9 @@ function App() {
       <Routes>
         <Route path="/" element={<AppStarter />}>
           <Route path="" index={true} element={<Posts />} />
-          <Route path="/posts/:id" element={<PostDetail />} />
-          <Route path="/category-posts/:id" element={<CategoryPosts />} />
-          <Route path="/*" element={<PageNotFound />} />
+          <Route path="posts/:id" element={<PostDetail />} />
+          <Route path="category-posts/:id" element={<CategoryPosts />} />
+          <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>
     </DataProvider>
