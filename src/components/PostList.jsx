@@ -44,7 +44,7 @@ const PostList = ({ posts }) => {
                             key={i?.id}
                             className="relative rounded-lg overflow-hidden bg-slate-200 border shadow-lg"
                         >
-                            <div className="absolute top-2 right-2 flex items-center gap-2">
+                            <div className="absolute top-2 right-2 space-x-2">
                                 <button
                                     onClick={() => handleUpdatePost(i)}
                                     className="bg-cyan-500 text-sm p-1 px-2 rounded-lg font-bold"
